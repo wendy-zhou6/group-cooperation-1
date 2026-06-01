@@ -29,7 +29,7 @@ class TeamHomePage extends StatelessWidget {
 
   static const List<TeamMember> members = [
     TeamMember(
-        role: '组长', name: '周伟佳', task: '创建仓库、维护 main 分支、审核 PR、发布 GitHub Pages'),
+        role: '组长', name: '周伟佳', task: '创建Github仓库，上传初始Flutter项目，审核组员Pull Request，合并代码，发布 GitHub Pages'),
     TeamMember(role: '组员 A', name: '陈嘉玲', task: '修改首页标题和项目口号'),
     TeamMember(role: '组员 B', name: '廖春花', task: '修改小组成员与分工'),
     TeamMember(role: '组员 C', name: '杨顺粉', task: '修改项目功能列表'),
