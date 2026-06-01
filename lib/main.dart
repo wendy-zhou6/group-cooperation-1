@@ -30,9 +30,9 @@ class TeamHomePage extends StatelessWidget {
   static const List<TeamMember> members = [
     TeamMember(role: '组长', name: '李组长', task: '创建仓库、维护 main 分支、审核 PR、发布 GitHub Pages'),
     TeamMember(role: '组员 A', name: '成员 A', task: '修改首页标题和项目口号'),
-    TeamMember(role: '组员 B', name: '成员 B', task: '修改小组成员与分工'),
-    TeamMember(role: '组员 C', name: '成员 C', task: '修改项目功能列表'),
-    TeamMember(role: '组员 D', name: '成员 D', task: '修改发布说明和访问地址'),
+    TeamMember(role: '组员 B', name: '成员 B', task: '补充成员介绍卡片'),
+    TeamMember(role: '组员 C', name: '成员 C', task: '补充项目功能列表'),
+    TeamMember(role: '组员 D', name: '成员 D', task: '补充发布说明和访问地址'),
   ];
 
   static const List<String> features = [
