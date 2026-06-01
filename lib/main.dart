@@ -25,11 +25,10 @@ class TeamHomePage extends StatelessWidget {
   const TeamHomePage({super.key});
 
   static const String projectTitle = '第七小组 Flutter Web 展示页';
-  static const String projectSlogan = '用 GitHub 协作完成小组项目，体验真实团队开发流程';
+  static const String projectSlogan = '用 GitHub 协作完成一次真实的小组项目发布';
 
   static const List<TeamMember> members = [
-    TeamMember(
-        role: '组长', name: '周伟佳', task: '创建仓库、维护 main 分支、审核 PR、发布 GitHub Pages'),
+    TeamMember(role: '组长', name: '周伟佳', task: '创建仓库、维护 main 分支、审核 PR、发布 GitHub Pages'),
     TeamMember(role: '组员 A', name: '陈嘉玲', task: '修改首页标题和项目口号'),
     TeamMember(role: '组员 B', name: '廖春花', task: '修改小组成员与分工'),
     TeamMember(role: '组员 C', name: '杨顺粉', task: '修改项目功能列表'),
@@ -39,16 +38,17 @@ class TeamHomePage extends StatelessWidget {
   ];
 
   static const List<String> features = [
-    '基于 Flutter Web 构建的小组协作展示页面',
-    '采用 GitHub Pull Request 工作流进行团队协作',
-    '每位组员独立负责不同模块，通过分支并行开发',
-    '代码合并后通过 GitHub Pages 部署上线',
+    'Flutter Web 单页展示界面',
+    '小组成员介绍与分工卡片',
+    '项目功能列表展示',
+    '发布说明与 GitHub Pages 访问地址',
+    'GitHub Fork + Pull Request 协作流程演示',
   ];
 
   static const List<String> releaseNotes = [
-    '源码统一维护在 main 分支，所有组员修改都通过 PR 合并。',
-    '组长使用 flutter build web 生成静态网页文件。',
-    '构建产物发布到 gh-pages 分支，并由 GitHub Pages 对外访问。',
+    '源码维护在 main 分支，所有组员通过 PR 合并修改。',
+    '使用 flutter build web 构建静态网页。',
+    '构建产物发布到 gh-pages 分支，通过 GitHub Pages 访问。',
     '访问地址：https://wendy-zhou6.github.io/group-cooperation-1/',
   ];
 
