@@ -28,7 +28,7 @@
 | 成员介绍 | 小组成员的姓名、角色、任务分工卡片列表 | 组员 B 廖春花 |
 | 项目功能 | 项目功能说明列表 | 组员 C 杨顺粉 |
 | 发布说明 | 部署方式与访问地址 | 组员 D 杨美媛 |
-| 顶部导航栏 | 修改 AppBar 标题与浏览器标签页标题 | 组员 E 杨怡婷 |
+| 顶部导航栏 | 修改 AppBar 标题与浏览器标签页标题 | 组员 E 王怡婷 |
 | 主题颜色 | 修改应用主题颜色（`Colors.indigo`） | 组员 F 岳沛珂 |
 
 ## 安装
@@ -85,7 +85,7 @@ static const List<String> features = [ ... ];
 // 组员 D 杨美媛 → 发布说明
 static const List<String> releaseNotes = [ ... ];
 
-// 组员 E 杨怡婷 → 修改 AppBar 标题
+// 组员 E 王怡婷 → 修改 AppBar 标题
 // 在 Scaffold 的 appBar 中修改 title 文字
 
 // 组员 F 岳沛珂 → 修改主题颜色
@@ -133,7 +133,7 @@ group-cooperation-1/
 | 组员 B | 廖春花 | 整理小组成员介绍与任务分工 | `member-b-members` |
 | 组员 C | 杨顺粉 | 整理项目功能列表 | `member-c-features` |
 | 组员 D | 杨美媛 | 记录发布说明和访问地址 | `member-d-release` |
-| 组员 E | 杨怡婷 | 修改顶部导航栏（AppBar）标题与浏览器标签页标题 | `member-e-appbar` |
+| 组员 E | 王怡婷 | 修改顶部导航栏（AppBar）标题与浏览器标签页标题 | `member-e-appbar` |
 | 组员 F | 岳沛珂 | 修改应用主题颜色（`Colors.indigo`） | `member-f-theme` |
 
 ## 技术栈
