@@ -39,10 +39,10 @@ class TeamHomePage extends StatelessWidget {
   ];
 
   static const List<String> features = [
-    'Material Design 3 风格的单页展示界面',
-    '小组成员头像、角色与分工信息卡片',
-    '项目核心功能列表展示区域',
-    '发布说明与访问地址信息区域',
+    '基于 Flutter Web 构建的小组协作展示页面',
+    '采用 GitHub Pull Request 工作流进行团队协作',
+    '每位组员独立负责不同模块，通过分支并行开发',
+    '代码合并后通过 GitHub Pages 部署上线',
   ];
 
   static const List<String> releaseNotes = [
