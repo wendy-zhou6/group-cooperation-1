@@ -13,7 +13,7 @@ class GroupFlutterPagesApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: '小组 Flutter Web 展示页',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreen),
         useMaterial3: true,
       ),
       home: const TeamHomePage(),
