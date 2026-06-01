@@ -11,7 +11,7 @@ class GroupFlutterPagesApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: '小组 Flutter Web 展示页',
+      title: '星火小组 · GitHub协作项目展示',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         useMaterial3: true,
@@ -52,7 +52,7 @@ class TeamHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('小组项目展示')),
+      appBar: AppBar(title: const Text('星火小组 · GitHub协作项目')),
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: const [
