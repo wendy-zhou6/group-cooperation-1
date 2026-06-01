@@ -28,14 +28,11 @@ class TeamHomePage extends StatelessWidget {
   static const String projectSlogan = '用 GitHub 协作完成小组项目，体验真实团队开发流程';
 
   static const List<TeamMember> members = [
-    TeamMember(
-        role: '组长', name: '周伟佳', task: '创建仓库、维护 main 分支、审核 PR、发布 GitHub Pages'),
+    TeamMember(role: '组长', name: '李组长', task: '创建仓库、维护 main 分支、审核 PR、发布 GitHub Pages'),
     TeamMember(role: '组员 A', name: '陈嘉玲', task: '修改首页标题和项目口号'),
-    TeamMember(role: '组员 B', name: '廖春花', task: '修改小组成员与分工'),
-    TeamMember(role: '组员 C', name: '杨顺粉', task: '修改项目功能列表'),
-    TeamMember(role: '组员 D', name: '杨美媛', task: '修改发布说明和访问地址'),
-    TeamMember(role: '组员 E', name: '王怡婷', task: '修改顶部导航栏(AppBar)标题和浏览器标签页标题'),
-    TeamMember(role: '组员 F', name: '岳沛珂', task: '修改应用主题颜色(Colors.indigo)'),
+    TeamMember(role: '组员 B', name: '成员 B', task: '补充成员介绍卡片'),
+    TeamMember(role: '组员 C', name: '成员 C', task: '补充项目功能列表'),
+    TeamMember(role: '组员 D', name: '成员 D', task: '补充发布说明和访问地址'),
   ];
 
   static const List<String> features = [
