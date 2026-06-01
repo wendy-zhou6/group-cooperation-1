@@ -37,7 +37,6 @@ class TeamHomePage extends StatelessWidget {
     TeamMember(role: '组员 E', name: '王怡婷', task: '修改顶部导航栏(AppBar)标题和浏览器标签页标题'),
     TeamMember(role: '组员 F', name: '岳沛珂', task: '修改应用主题颜色(Colors.indigo)'),
   ];
-
   static const List<String> features = [
     'Material Design 3 风格的单页展示界面',
     '小组成员头像、角色与分工信息卡片',
