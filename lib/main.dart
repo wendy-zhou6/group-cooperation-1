@@ -13,7 +13,7 @@ class GroupFlutterPagesApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: '星火小组 · GitHub协作项目展示',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreen),
         useMaterial3: true,
       ),
       home: const TeamHomePage(),
