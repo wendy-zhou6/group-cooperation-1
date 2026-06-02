@@ -11,6 +11,7 @@ class GroupFlutterPagesApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      // 组员 E 王怡婷 → 浏览器标签页标题
       title: '星火小组 · GitHub协作项目展示',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreen),
@@ -56,7 +57,8 @@ class TeamHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('星火小组 · github协作项目')),
+      // 组员 E 王怡婷 → 顶部导航栏(AppBar)标题
+      appBar: AppBar(title: const Text('星火小组 · GitHub协作项目')),
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: const [
