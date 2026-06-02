@@ -29,7 +29,9 @@ class TeamHomePage extends StatelessWidget {
 
   static const List<TeamMember> members = [
     TeamMember(
-        role: '组长', name: '周伟佳', task: '创建Github仓库，上传初始Flutter项目，审核组员Pull Request，合并代码，发布 GitHub Pages'),
+        role: '组长',
+        name: '周伟佳',
+        task: '创建Github仓库，上传初始Flutter项目，审核组员Pull Request，合并代码，发布 GitHub Pages'),
     TeamMember(role: '组员 A', name: '陈嘉玲', task: '修改首页标题和项目口号'),
     TeamMember(role: '组员 B', name: '廖春花', task: '修改小组成员与分工'),
     TeamMember(role: '组员 C', name: '杨顺粉', task: '修改项目功能列表'),
@@ -54,7 +56,7 @@ class TeamHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('星火小组 · GitHub协作项目')),
+      appBar: AppBar(title: const Text('星火小组 · github协作项目')),
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: const [
@@ -103,7 +105,8 @@ class MembersSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text('小组成员与分工', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+        const Text('小组成员与分工',
+            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
         const SizedBox(height: 12),
         ...TeamHomePage.members.map((member) => MemberCard(member: member)),
       ],
@@ -139,7 +142,8 @@ class FeaturesSection extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text('项目功能', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+            const Text('项目功能',
+                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
             const SizedBox(height: 8),
             ...TeamHomePage.features.map((feature) => Text('• $feature')),
           ],
@@ -161,7 +165,8 @@ class ReleaseSection extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text('发布说明', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+            const Text('发布说明',
+                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
             const SizedBox(height: 8),
             ...TeamHomePage.releaseNotes.map((note) => Text('• $note')),
           ],
@@ -172,7 +177,8 @@ class ReleaseSection extends StatelessWidget {
 }
 
 class TeamMember {
-  const TeamMember({required this.role, required this.name, required this.task});
+  const TeamMember(
+      {required this.role, required this.name, required this.task});
 
   final String role;
   final String name;

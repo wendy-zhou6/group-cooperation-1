@@ -94,6 +94,10 @@ static const List<String> releaseNotes = [ ... ];
 
 修改后重新运行 `flutter run -d chrome` 即可预览效果。
 
+### 运行截图
+
+![项目运行截图](images/display.png)
+
 ### 构建 Web 静态文件
 
 ```bash
